@@ -1,0 +1,178 @@
+* {
+  font-family: "Orbitron";
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-right: 2%;
+  width: auto;
+}
+[aria-label] {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+nav.navbar-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+nav {
+  display: inline-block;
+  width: 100%;
+}
+
+nav > img {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+ul.list {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  top: 20px;
+}
+
+ul.list > li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 1%;
+  font-weight: bolder;
+}
+
+ul.list > li:hover {
+  border-bottom: 3px solid #000;
+  font-size: 110%;
+  font-weight: 150%;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  /* position: absolute;
+  display: inline-block;
+  right: 0;*/
+  top: 20px;
+}
+.search-icon {
+  display: inline;
+  /* height: 1px; */
+}
+.nav-button {
+  display: inline;
+  padding: 5% 15%;
+}
+button {
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px 0;
+}
+[aria-label="banner"] {
+  position: relative;
+  display: block;
+  margin-top: 5%;
+}
+/* [aria-label="banner"] > div { */
+/* margin-top: 200px; */
+/* } */
+.hero-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  /* white-space: pre-wrap; */
+}
+.hero-container > .hero-container-right {
+  position: absolute;
+  width: auto;
+  display: inline-block;
+  left: 40%;
+  margin-top: 7%;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.hero-container > .hero-container-right > div {
+  display: block;
+  text-align: center;
+  width: auto;
+  margin: 0 auto;
+}
+.hero-container > .hero-container-right button {
+  display: inline-block;
+  text-align: center;
+  padding: 5px 15px;
+  margin-top: 8%;
+  /* width: 100%; */
+  /* margin: 0 auto; */
+}
+
+.hero-container > .hero-container-right button + .button-join {
+  background-color: #000;
+  color: #fff;
+}
+
+.globe {
+  display: block;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 50%;
+  height: 5px;
+  width: 5px;
+}
+.hero-container > div > img {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  height: 500px;
+  width: auto;
+  /*margin: 0 auto; */
+  /* width: 30%; */
+}
+.square {
+  position: absolute;
+  display: inline-block;
+  top: 150px;
+  left: 80px;
+  /* width: auto;
+  margin: 0 auto; */
+  /* width: 30%; */
+}
+
+.hero-heading {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 5%;
+}
+.hero-description {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  color: rgb(114, 112, 112);
+}
+.star {
+  display: inline;
+  position: relative;
+  float: right;
+  height: 1px;
+  width: 1px;
+}
+
+.star2 {
+  display: inline;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 0;
+  height: 5px;
+  width: 5px;
+}
+.contact-heading .icons {
+  display: block;
+}
+.contact-heading {
+  margin-top: 10%;
+}
